@@ -29,7 +29,7 @@ main {
 }
 
 section {
-    padding: 40px 300px;
+    padding: 40px 200px;
 }
 
 a {
@@ -145,7 +145,7 @@ img[alt="logo"] {
     width: 20%;
     border-radius: 10px;
     box-shadow: 2px 2px 15px;
-    padding: 30px 20px;
+    padding: 50px 40px;
 }
 
 .card p {
