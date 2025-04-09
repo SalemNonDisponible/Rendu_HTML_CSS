@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2EFED;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin: 30px 130px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul, li {
+    width: 100%;
+}
+
+h2 {
+    margin: 30px 0;
+    text-align: center;
+}
+
+nav {
+    width: 30%;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bandeau {
+    display: flex;
+    color: white;
+}
+
+.bandeau p {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+.bandeau div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(32, 243, 12, 0.975);
+
+}
+
+.bandeau img, .bandeau div {
+    width: 50%;
+}
+
+img[alt="logo"] {
+    height: 60px;
+    object-fit: cover;
+}
+
+.bandeau>img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.presentation div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation>p {
+    margin-bottom:  30px;
+}
+
+.presentation-image {
+    border: 2px solid rgba(32, 243, 12, 0.975);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation-image img, .card img {
+    width: 100%;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.presentation-image p {
+    margin-top: 10px;
+}
+
+.seduction {
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: rgb(3, 79, 3);
+    padding: 40px 0;
+}
+
+.groupe-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px;
+    padding: 30px 20px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.prix {
+    color: rgb(3, 79, 3);
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(3, 79, 3);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact {
+    width: 100%;
+}
+
+form {
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 2px 2px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nom-mail {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+label {
+    margin: 10px 0;
+}
+
+.fusion-label {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    width: 20%;
+    margin: 20px auto  0 auto;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(3, 79, 3);
+    padding: 20px 0;
+}
+
+input, textarea {
+    border-radius: 5px;
+    border: 1px solid rgb(3, 79, 3);
+}
+
+textarea {
+    resize: none;
+}
