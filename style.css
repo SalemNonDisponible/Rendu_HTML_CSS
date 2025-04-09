@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1, h2 {
+    font-family: "Vollkorn SC", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -14,7 +29,7 @@ main {
 }
 
 section {
-    margin: 30px 200px;
+    padding: 40px 300px;
 }
 
 a {
@@ -74,7 +89,6 @@ nav {
 
 img[alt="logo"] {
     height: 60px;
-    object-fit: cover;
 }
 
 .bandeau>img {
@@ -82,7 +96,8 @@ img[alt="logo"] {
     object-fit: cover;
 }
 
-.presentation div {
+.presentation>div {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -92,11 +107,13 @@ img[alt="logo"] {
 }
 
 .presentation-image {
+    width: 20%;
     border: 2px solid #46352A;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 .presentation-image img, .card img {
@@ -160,7 +177,7 @@ button {
 form {
     padding: 30px;
     width: 30%;
-    margin: auto;
+    margin: 20px auto;
     box-shadow: 2px 2px 15px;
     border-radius: 10px;
     display: flex;
@@ -184,7 +201,7 @@ label {
 }
 
 form button {
-    width: 20%;
+    width: 50%;
     margin: 20px auto  0 auto;
 }
 
@@ -200,6 +217,51 @@ input, textarea {
     border: 1px solid #4A6743;
 }
 
+input[type="email"], input[type="text"] {
+    padding: 5px 0;
+}
+
 textarea {
     resize: none;
+}
+
+.relou {
+    margin-bottom: 20px;
+}
+
+.fatigue {
+    background-color: #b8a49c;
+}
+
+.fabrication {
+    display: flex;
+    align-items: center;
+    
+}
+
+.fabrication img, .fabrication div {
+    width: 50%;
+}
+
+.fabrication div {
+    padding-left: 50px;
+}
+
+.cadre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.cadre .presentation-image {
+    width: 20%;
+}
+
+.cadre>p {
+    width: 60%;
+}
+
+.jemepresente p {
+    margin: 30px 0;
 }
